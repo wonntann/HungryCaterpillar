@@ -1,0 +1,16 @@
+#caterpillar{
+position: absolute;
+float: left;
+}
+.body{
+width: 50px;
+height: 50px;
+background-color: green;
+float: left;
+}
+#head{
+width: 50px;
+height: 50px;
+background-color: red;
+float: left;
+}
