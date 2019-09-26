@@ -38,20 +38,5 @@ fadeCaterpillar();
 $("#grow").click(function() {
 grow();
 });
-$(this).keypress(function(e){
-switch (e.keyCode) {
-case 49||97:
-animate();
-break;
-case 50||98:
-reset();
-break;
-case 51||99:
-fadeCaterpillar();
-break;
-case 52||100:
-grow();
-break;
-}
-});
+
 });
